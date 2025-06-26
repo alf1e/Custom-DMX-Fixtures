@@ -1,5 +1,5 @@
 # DMX Control Board
-* [Digikey BOM](https://github.com/alf1e/Custom-DMX-Fixtures/tree/main/DMX%20Control%20Board/BOM-Digikey.csv)
+* [Digikey BOM](https://github.com/alf1e/Custom-DMX-Fixtures/blob/main/DMX%20Control%20Board/BOM-digikey.csv)
 * [Other BOM (Pending Creation)]()
 
 # Fixture Board

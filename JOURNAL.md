@@ -88,3 +88,4 @@ Add some graphics and text and boom, it done.
 
 ![Picture of PCB Model Back](./Images/24F-PCB-Model-Back.png)
 
+**Time Taken: 5h**

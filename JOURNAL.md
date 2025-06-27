@@ -8,7 +8,6 @@ created_at: "2025-06-24"
 # June 24th: Let it begin.
 Today I began work on my project, designing the PCB for the control board. This board will send power and data to each fixture (up to 4 maximum) to allow me to control them. Im using some open source software call [WLED](https://kno.wled.ge/) for this.
 
-__Schematic__
 I started the schematic off with the connectors. For inputs I have: power (+24v,10a) and DMX in (GND, DMXIN+, DMXIN-). For outputs I have: 3x Fixture Outputs (+24v with 2a fuse and status LED in series, LED1+, LED1- and GND), 1x Fixture Output (+24v with 1a fuse and status LED in series, LED1+, LED1- and GND).
 
 ![picture of connectors](./Images/connectors.png)
@@ -56,3 +55,36 @@ It was also at this point of the project where I had to redo at least a good hal
 My next steps now are adding mounting holes to the PCB and testing the circuit.
 
 **Time Taken: 2h (also estimate, sorry)**
+
+# June 27th: Getting the Fixture Board going!
+In the future, I plan to make fixture boards supporting many different voltages, but for now I will focus on 24V fixtures with the `24V Fixture Board`.
+
+
+__Schematic__
+To start I need another 4-pin screw terminal that will be connected to a GX12-4 connector. Also, cant forget ESD protection on this side too! Also, a 3-pin JST connector is required for the fixture itself, outputting 24v, data and GND.
+
+![Picture of Connectors](./Images/24F-Connectors.png)
+
+Next, I need to handle power conversion. Same as last time really, just stick a buck converter in tuned to 5v and thats that done. However, a slight change is I need to add a capacitor to handle the voltage drop over the long cable to the fixture.
+
+![Picture of Power](./Images/24F-Power.png)
+
+Finally, just need the RS485 module to convert LED+ and LED- to a singular data line. Jusat a 5v input, LED+ to B, LED- to A, GND, connect LED to RO and connewct RE and DE to GND and thats all thats needed!
+
+![Picture of RS485](./Images/24F-RS485.png)
+
+__PCB__
+Next step on the list, laying this all out on a board.
+
+This started off with the usual hell of "Oh no I need to find footprints" and then guessing some, and probably soon changing them as any parts that would fit in that footprint are long obselete.
+
+Once I got all the footprints together this was actually quite a simple layout. 4 pin header on one side, JST connector for the strip on the otherside and just throw all the parts in between and call it a day. However, this was my first time utilising both sides of the PCB so that proved to be interesting.
+
+Add some graphics and text and boom, it done.
+
+![Picture of finished PCB Layout](./Images/24F-PCB-Layout.png)
+
+![Picture of PCB Model Front](./Images/24F-PCB-Model-Front.png)
+
+![Picture of PCB Model Back](./Images/24F-PCB-Model-Back.png)
+

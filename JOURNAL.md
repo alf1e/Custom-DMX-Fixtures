@@ -91,6 +91,10 @@ Add some graphics and text and boom, it done.
 **Time Taken: 5h**
 
 # June 28th: The BOM... (scary..!)
-Once again, doing this fun stuff in 2 parts: the Digikey BOM and the "Other" BOM. Started off with the Digikey BOM and that was relitively easy as it used almost all of the same parts. The only item I needed to find was a 3-Pin horizontal JST connector which was easy enough
+Once again, doing this fun stuff in 2 parts: the Digikey BOM and the "Other" BOM. Started off with the Digikey BOM and that was relitively easy as it used almost all of the same parts. The only item I needed to find was a 3-Pin horizontal JST connector which was easy enough.
 
-**Time Taken: (INCOMPLETE ENTRY)**
+Next up, the "Other" BOM for the 24V Fixture board. This is quite simple as all that is needed is a buck converter and a RS-485 module. this will include details for a case but as mentioned above, that is being left until I am sure everything works as my 3D printer is broken (parts are on route! but ebay shipping is pain). I alsoe needed to calculate a cost of the PCB which currently could change. This had been added to the BOM.
+
+The "Other" BOM for the Control Board has also been created featuring basically the same parts + its own PCB which I do not expect the price of to change by much.
+
+**Time Taken: 3h**

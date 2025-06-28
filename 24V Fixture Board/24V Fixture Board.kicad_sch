@@ -2175,7 +2175,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LM2596S-Buck-Module:LM2596S-Buck-Module"
 			(at 174.752 26.924 0)
 			(effects
 				(font
@@ -2392,7 +2392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type011_RT05504HBWC_1x04_P5.00mm_Horizontal"
 			(at 269.24 31.75 0)
 			(effects
 				(font
@@ -2666,7 +2666,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Max485:Max485"
 			(at 173.99 67.31 0)
 			(effects
 				(font
@@ -2879,7 +2879,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000u"
+		(property "Value" "1μF"
 			(at 157.48 33.4009 0)
 			(effects
 				(font
@@ -2888,7 +2888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
 			(at 154.6352 36.83 0)
 			(effects
 				(font

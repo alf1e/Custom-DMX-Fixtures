@@ -89,3 +89,8 @@ Add some graphics and text and boom, it done.
 ![Picture of PCB Model Back](./Images/24F-PCB-Model-Back.png)
 
 **Time Taken: 5h**
+
+# June 28th: The BOM... (scary..!)
+Once again, doing this fun stuff in 2 parts: the Digikey BOM and the "Other" BOM. Started off with the Digikey BOM and that was relitively easy as it used almost all of the same parts. The only item I needed to find was a 3-Pin horizontal JST connector which was easy enough
+
+**Time Taken: (INCOMPLETE ENTRY)**

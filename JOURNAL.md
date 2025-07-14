@@ -5,6 +5,8 @@ description: "Custom DMX Light Fixtures powered by WLED and a custom controller.
 created_at: "2025-06-24"
 ---
 
+**Total Time: 22.75h**
+
 # June 24th: Let it begin.
 Today I began work on my project, designing the PCB for the control board. This board will send power and data to each fixture (up to 4 maximum) to allow me to control them. Im using some open source software call [WLED](https://kno.wled.ge/) for this.
 
@@ -98,3 +100,10 @@ Next up, the "Other" BOM for the 24V Fixture board. This is quite simple as all 
 The "Other" BOM for the Control Board has also been created featuring basically the same parts + its own PCB which I do not expect the price of to change by much.
 
 **Time Taken: 3h**
+
+# June 14th: The BOM... (scary..!...again)
+After a short break while I was away, I'm back at it again!
+
+This time I have created the BOM for the fixture itself, consisting of a control board, the LED strip and the polycarbonate tube used to diffuse the LED. For the control board in this BOM I have just totalled the BOM of the `24V Fixture Board` and added this as an item to the BOM. 
+
+**Time Taken: 45m**

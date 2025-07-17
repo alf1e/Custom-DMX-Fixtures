@@ -5,7 +5,7 @@ description: "Custom DMX Light Fixtures powered by WLED and a custom controller.
 created_at: "2025-06-24"
 ---
 
-**Total Time: 22.75h**
+**Total Time: 25.25h**
 
 # June 24th: Let it begin.
 Today I began work on my project, designing the PCB for the control board. This board will send power and data to each fixture (up to 4 maximum) to allow me to control them. Im using some open source software call [WLED](https://kno.wled.ge/) for this.
@@ -45,7 +45,7 @@ Also, a huge thanks to @pinamouse of the WLED discord server for being a huge in
 
 ![Picture of PCB Model Front](./Images/PCB-Model-Front.png)
 
-![Picture of PCB Model Front](./Images/PCB-Model-Back.png)
+![Picture of PCB Model Back](./Images/PCB-Model-Back.png)
 
 **TIME TAKEN: 7h (estimate, sorry)**
 
@@ -107,3 +107,18 @@ After a short break while I was away, I'm back at it again!
 This time I have created the BOM for the fixture itself, consisting of a control board, the LED strip and the polycarbonate tube used to diffuse the LED. For the control board in this BOM I have just totalled the BOM of the `24V Fixture Board` and added this as an item to the BOM. 
 
 **Time Taken: 45m**
+
+# June 17th: More BOM work!
+It was a sad, rainy day... Well it wasnt really I just hate BOMs. Anyway I started off by removing some useless columns from the Digikey BOM and reformating the other BOMs to use that format for easier combination. 
+
+I then combined the digikey + other BOMs into 1 BOM.
+
+Following this, I have combined the individual BOMs into one single BOM with 4x 24V LED Bar Fixtures and 1x Control Board.
+
+Next, I made the README.md, added some pictures and put the BOM at the bottom like required.
+
+Oh, I also went through and added links to the main BOM.
+
+*my brain is a mess*
+
+**Time Taken: 2.5h**

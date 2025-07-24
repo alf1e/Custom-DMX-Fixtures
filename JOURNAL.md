@@ -5,7 +5,7 @@ description: "Custom DMX Light Fixtures powered by WLED and a custom controller.
 created_at: "2025-06-24"
 ---
 
-**Total Time: 25.25h**
+**Total Time: 26.75h**
 
 # June 24th: Let it begin.
 Today I began work on my project, designing the PCB for the control board. This board will send power and data to each fixture (up to 4 maximum) to allow me to control them. Im using some open source software call [WLED](https://kno.wled.ge/) for this.
@@ -122,3 +122,12 @@ Oh, I also went through and added links to the main BOM.
 *my brain is a mess*
 
 **Time Taken: 2.5h**
+
+# June 24th: Fixing the submission.
+I was informed by Highway that I need to use LCSC. So, I have spent some time finding the components I needed on LCSC and changing components where nessecary.
+
+While I was doing this, I have basically redone all the trace layout because I kind of had to anyway.
+
+I attempted to contact WeProFab for a quote for the Polycarbonate tube but was met with no response so I will have to stick with my eBay supplier for now.
+
+**Time Taken: 1.5h**

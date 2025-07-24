@@ -7662,7 +7662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
+		(property "Footprint" "Fuse:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
 			(at 251.46 46.228 90)
 			(effects
 				(font
@@ -7730,7 +7730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
+		(property "Footprint" "Fuse:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
 			(at 251.46 135.128 90)
 			(effects
 				(font
@@ -8214,7 +8214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
+		(property "Footprint" "Fuse:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
 			(at 251.46 75.438 90)
 			(effects
 				(font
@@ -8958,7 +8958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
+		(property "Footprint" "Fuse:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
 			(at 251.46 104.648 90)
 			(effects
 				(font

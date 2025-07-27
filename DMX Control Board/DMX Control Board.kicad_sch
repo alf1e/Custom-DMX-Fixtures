@@ -8777,7 +8777,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PJ_063AH:CUI_PJ-063AH"
+		(property "Footprint" "XUNPU:DC-IN-TH_DC-S010A-D025-20A"
 			(at 242.57 27.94 0)
 			(effects
 				(font

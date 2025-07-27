@@ -131,3 +131,13 @@ While I was doing this, I have basically redone all the trace layout because I k
 I attempted to contact WeProFab for a quote for the Polycarbonate tube but was met with no response so I will have to stick with my eBay supplier for now.
 
 **Time Taken: 1.5h**
+
+
+# --- APPROVED FOR HIGHWAY | BELOW THIS LINE IS NOT INCLUDED IN TOTAL TIME ---
+
+# June 27th: Safety is key.
+Safety is key, and this is why i decided default track width was NOT a good decision for 8 amps, so I changed this.
+
+I have also changed to a 10A capable barrel jack and replaced the randon 1A fuse with a 2A one.
+
+**Time Taken: 1h**

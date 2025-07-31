@@ -22,7 +22,9 @@ For the firmware, you can use any compilation of WLED with DMX enabled.
 You can compile WLED at [this website](https://wled-compile.github.io/?lang=en) using my config file in the root of this repository called `firmware.json`
 
 # External Wiring
-A DMX Fixture is basically a fancy name for a software controlled light, usually in a theatrical setting. My Fixtures are connected to the controlled using a GX12-4 cable matching 24V with 24V, A with A, B with B and GND with GND. Relatively simple!
+A DMX Fixture is basically a fancy name for a software controlled light, usually in a theatrical setting. My Fixtures are connected to the controlled using a GX12-4 cable matching 24V with 24V, A with LED-, B with LED+ and GND with GND. Relatively simple!
+
+![Picture of Wiring](./Images/wiring.png)
 
 # How to use.
 Once you have the firmware installed there is 2 ways you can use this.

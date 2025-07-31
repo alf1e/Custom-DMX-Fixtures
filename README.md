@@ -21,6 +21,16 @@ For the firmware, you can use any compilation of WLED with DMX enabled.
 
 You can compile WLED at [this website](https://wled-compile.github.io/?lang=en) using my config file in the root of this repository called `firmware.json`
 
+# How to use.
+Once you have the firmware installed there is 2 ways you can use this.
+
+## No DMX
+This can be purely controlled by any WLED control software. For mobile, I use WLED Native or just go to the IP of the controller on desktop. You can then change the colour and set effects through here
+
+## DMX
+This is a bit more complicated. Once you have connected the controller to your computer via a DMX interface you can open any DMX control software like QLC+ and import the configuration of the lights (Coming soon! I cant create a configuration without having at least a prototype) and then you can control the lights through QLC+. Remember to make sure you have no overlapping channels though!
+
+
 # BOM
 The following table and `BOM.csv` file are a combination of 4x 24V LED Bar Fixtures and 1x Control Board. For the individual BOMs see `BOM.md`
 
